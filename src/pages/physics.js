@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { motion } from 'framer-motion'
 import { fadeInUp, staggerAnimation, fadeInDown, fadeInRight } from '../animation/animations'
+import Layout from "../components/layout"
 
 const SidebarLink = ({name, link, selected}) => {
   if (selected == 'true') {
