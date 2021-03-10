@@ -175,7 +175,7 @@ const SecondPage = () => (
                 textAlign: 'right',
                 fontWeight: '550',
               }}>
-              Welcome, today is {new Date().getMonth()}/{new Date().getDate()}/{new Date().getFullYear()}. <Link to="/" style={{color: 'lightblue'}}>Logout</Link>
+              Welcome, today is {new Date().getMonth()+1}/{new Date().getDate()}/{new Date().getFullYear()}. <Link to="/" style={{color: 'lightblue'}}>Logout</Link>
             </div>
         </div>
       </motion.div>
