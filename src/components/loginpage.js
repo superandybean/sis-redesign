@@ -4,9 +4,11 @@ import { Link } from "gatsby"
 
 import "./loginpage.css"
 
+import Layout from "../components/layout"
+
 const LoginPage = ({ children }) => {
   return (
-    <>
+    <Layout>
       <div
         style={{
           margin: `0 auto`,
@@ -36,7 +38,7 @@ const LoginPage = ({ children }) => {
         </div>
         <main>{children}</main>
       </div>
-    </>
+    </Layout>
   )
 }
 
